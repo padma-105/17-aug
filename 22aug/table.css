@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgba(192, 236, 149, 0.584);
+    font-size: 6em;
+    text-align: center;
+   
+}
+.black{
+    background-color: chartreuse;
+}

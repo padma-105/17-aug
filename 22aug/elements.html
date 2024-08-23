@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        *{
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .child {
+           display:none;
+           cursor: pointer;
+        }
+        p {
+            background-color: aliceblue;
+            margin: 3px;
+            width: 300px;
+            font-size: 2rem;
+            padding: 5px;
+            text-align: center;
+        }  
+       .img{
+        width:50px;
+       }
+       .parent:checked~.child {
+          display: block;
+          width: 300px;
+       }
+      
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+       
+       <input type="checkbox" name="checked" value="child">
+    </div>
+    
+    <div class="child">
+        <p>SUNDAY</p>
+        <P>MONDAY</P>
+        <P>TUESDAY</P>
+        <P>WEDNESDAY</P>
+        <P>THURSDAY</P>
+        <P>FRIDAY</P>
+        <P>SATURDAY</P>
+    </div>
+</body>
+</html>
