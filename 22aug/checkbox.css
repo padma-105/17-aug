@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 40px;
+}
+#checkbox{
+    display: none;
+}
+div{
+    display: none;
+    background-color: palegreen;
+    width: 600px;
+    
+}
+#checkbox:checked~div{
+    display: block;
+}
+p{  
+    background-color: firebrick;
+    color: antiquewhite;
+    font-size: 2rem;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   position: relative;
+   left: 80px;
+}
